@@ -38,7 +38,7 @@ jobs:
       - name: PushGH
         env:
           APP: "kbot"
-          REGISTRY: ${{ ghcr.io/funnypig }}
+          REGISTRY: "ghcr.io/funnypig"
         run: make push
 
   cd:
