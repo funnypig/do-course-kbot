@@ -39,7 +39,7 @@ jobs:
         env:
           APP: "kbot"
           REGISTRY: "ghcr.io/funnypig"
-        run: make push
+        run: make image push
 
   cd:
     name: CD
