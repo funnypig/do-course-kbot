@@ -8,7 +8,7 @@ replicaCount: 1
 image:
   repository: funnypig888/do-course-kbot
   pullPolicy: IfNotPresent
-  tag: "v1.0.1-9eeb164"
+  tag: "v1.0.1-0d98f3f"
   arch: amd64
   TELE_TOKEN: 123
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
