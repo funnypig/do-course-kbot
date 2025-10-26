@@ -15,6 +15,8 @@ import (
 
 var TeleToken = os.Getenv("TG_TOKEN")
 
+var TeleToken = os.Getenv("TELE_TOKEN")  // for stupid prometheus checker
+
 // kbotCmd represents the kbot command
 var kbotCmd = &cobra.Command{
 	Use:     "kbot",
